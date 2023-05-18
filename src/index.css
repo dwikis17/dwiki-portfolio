@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: white;
+  color: rgb(255, 255, 255)
+}
+
+.name {
+  font-size:24px;
+  font-family: 'Poppins';
+  font-weight: bold;
+}
+
+.custom-shape-divider-bottom-1684408167 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1684408167 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider-bottom-1684408167 .shape-fill {
+  fill: #FFFFFF;
+}
+
+.hero-text {
+  font-family: 'Sora';
+  font-size: 40px;
+  background: -webkit-linear-gradient(#3BF686, #4CA9FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#biography {
+  font-family: 'Sora';
+  font-size:1.2rem
+}
+
+#biography p {
+  font-size: 1rem;
+  font-family: 'Sora'
+}
+
+#code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
